@@ -15,6 +15,9 @@ A simple command-line expense tracker built with Python.
 - Lists
 - User input
 
+## Author
+Ntsohatu Jesus
+
 ## How to Run
 
 ```bash
