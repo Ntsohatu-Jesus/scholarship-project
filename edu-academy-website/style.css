@@ -1,0 +1,102 @@
+body{
+font-family: Arial;
+margin:0;
+background:white;
+color:#333;
+}
+
+header{
+background:#0a4ea3;
+color:white;
+padding:15px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:100px 20px;
+background:#e9f2ff;
+}
+
+.hero button{
+padding:12px 25px;
+background:#0a4ea3;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.courses{
+padding:60px 20px;
+text-align:center;
+}
+
+.course-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.course-card{
+background:white;
+border:1px solid #ddd;
+padding:20px;
+width:250px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.stats{
+display:flex;
+justify-content:space-around;
+background:#0a4ea3;
+color:white;
+padding:40px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#111;
+color:white;
+}
+
+.page{
+padding:60px 20px;
+text-align:center;
+}
+
+.program-list{
+list-style:none;
+font-size:18px;
+}
+
+.contact-form{
+display:flex;
+flex-direction:column;
+max-width:400px;
+margin:auto;
+gap:10px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:10px;
+border:1px solid #ccc;
+}
